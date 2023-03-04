@@ -18,6 +18,7 @@ const demo_server = http.createServer(function (request, response) {
       response.writeHead(200, { 'Content-Type': 'text/html' })
       response.end('Result: ' + product)
       console.log('')
+      console.log('')
     })
   } else {
     var html = `
